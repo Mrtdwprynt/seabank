@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ApplicationSeabank</string>
+    <string name="transfer">Transfer</string>
+    <string name="todo">Todo</string>
+    <string name="todoo">TODO</string>
+    <string name="todo1">TODO1</string>
+    <string name="home">Home</string>
+    <string name="bayar_transfer">Bayar/Transfer</string>
+    <string name="qris">QRIS</string>
+    <string name="deposito">Deposito</string>
+    <string name="saya">Saya</string>
+</resources>

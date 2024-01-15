@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingStart="20dp"
+    android:paddingEnd="30dp"
+    tools:context=".beranda">
+
+    <ImageButton
+        android:id="@+id/notifbutton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_baseline_notifications_24"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/ic_baseline_account_circle_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="Nama,"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="80dp"
+        android:text="No Rek"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:background="#FF5722"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="rp.*****"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="saldo tersedia"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="rp.*****"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="110dp"/>
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:text="pendapatan bunga"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="80dp"
+            android:text="saldo tersedia"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="110dp"
+            android:text="3,75% p.a"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_baseline_compare_arrows_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/ic_baseline_article_24">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_baseline_article_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="194dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/ic_baseline_wallet_24">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_baseline_wallet_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/ic_baseline_history_24">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_baseline_history_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/ic_baseline_more_horiz_24">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_baseline_more_horiz_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="194dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/add_24">
+
+        <ImageButton
+            android:layout_width="43dp"
+            android:layout_height="49dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/add_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/group">
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/group"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/money_24">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/money_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="660dp"
+        android:background="@color/white">
+
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/white"
+            app:fabCradleMargin="19dp"
+            app:fabCradleRoundedCornerRadius="50dp"
+            tools:ignore="BottomAppBar">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent"
+                app:itemIconTint="@color/black"
+                app:itemTextColor="@color/black"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/bottom_nav" />
+        </com.google.android.material.bottomappbar.BottomAppBar>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="380dp"
+        android:text="@string/transfer"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="380dp"
+        android:text="riwayat"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="380dp"
+        android:text="tagihan"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="380dp"
+        android:text="E wallet"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="490dp"
+        android:text="deposito"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="492dp"
+        android:text="lainnya"
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="181dp"
+        android:layout_marginTop="490dp"
+        android:text="tambah saldo"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="490dp"
+        android:text="add friend"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <ImageButton
+        android:id="@+id/scan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="645dp"
+        android:backgroundTint="@color/orange"
+        android:src="@drawable/ic_scanner"
+        app:tint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

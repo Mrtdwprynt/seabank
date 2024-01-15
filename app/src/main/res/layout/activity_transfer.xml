@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".transfer">
+
+    <LinearLayout
+        android:background="@drawable/orenn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/sea"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/baseline_paid_24"
+            android:contentDescription="todoo"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/baseline_house_siding_24"
+            android:importantForAccessibility="no"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/baseline_account_tree_24"
+            android:importantForAccessibility="no"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/baseline_circle_notifications_24"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:text="bayar_transfer"
+        android:textColor="@color/white"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="90dp"
+        android:textSize="20sp"
+        android:text="transfer_ke"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="seabank"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="virtual_account"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:text="bank_lain"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="top_up_e_wallet"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="300dp"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="top_up_amp_tagihan"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="300dp"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="favorit"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="380dp"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="transaksi"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="380dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="660dp"
+        android:background="@color/white">
+
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/white"
+            app:fabCradleMargin="19dp"
+            app:fabCradleRoundedCornerRadius="50dp"
+            tools:ignore="BottomAppBar">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent"
+                app:itemIconTint="@color/black"
+                app:itemTextColor="@color/black"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/bottom_nav" />
+        </com.google.android.material.bottomappbar.BottomAppBar>
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_wallet"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="65dp"
+        android:contentDescription="@string/todo1" />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/baseline_indeterminate_24"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="180dp"
+        android:contentDescription="@string/todoo" />
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/trp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="130dp"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/scan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="645dp"
+        android:backgroundTint="@color/orange"
+        android:src="@drawable/ic_scanner"
+        app:tint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>

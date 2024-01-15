@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuHome"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/bayar"
+        android:title="@string/bayar_transfer"
+        android:icon="@drawable/ic_repeat" />
+
+    <item
+        android:id="@+id/qris"
+        android:checkable="false"
+        android:title="@string/qris" />
+
+    <item
+        android:id="@+id/menudeposit"
+        android:title="@string/deposito"
+        android:icon="@drawable/ic_deposito" />
+
+    <item
+        android:id="@+id/menuSaya"
+        android:title="@string/saya"
+        android:icon="@drawable/ic_person" />
+</menu>

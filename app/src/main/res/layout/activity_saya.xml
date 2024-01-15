@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    tools:context=".saya">
+
+    <ImageButton
+        android:id="@+id/notif"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_notification"/>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/notif"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/profile" />
+
+    <RelativeLayout
+        android:layout_below="@id/notif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/profile"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Username"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:text="Your Phone Number"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/saya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/profile"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="Profil Saya Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profil Saya"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+    <!-- Menu Keamanan Akun -->
+    <LinearLayout
+        android:id="@+id/keamanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saya"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_security"
+            android:contentDescription="Keamanan Akun Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Keamanan Akun"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+    <!-- Menu e-Statement -->
+    <LinearLayout
+        android:id="@+id/statement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/keamanan"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_statement"
+            android:contentDescription="e-Statement Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-Statement"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Menu Pengaturan Limit dan Pembayaran -->
+    <LinearLayout
+        android:id="@+id/limit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statement"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_payment"
+            android:contentDescription="Pengaturan Limit Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan Limit dan Pembayaran"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+    <!-- Menu Pengaturan BI-FAST -->
+    <LinearLayout
+        android:id="@+id/bifast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/limit"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_phone"
+            android:contentDescription="Pengaturan BI-FAST Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan BI-FAST"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Menu Pengaturan Umum -->
+    <LinearLayout
+        android:id="@+id/pengaturan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bifast"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_settings"
+            android:contentDescription="Pengaturan Umum Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan Umum"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Menu Undang Teman -->
+    <LinearLayout
+        android:id="@+id/undang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pengaturan"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_gift"
+            android:contentDescription="Undang Teman Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Undang Teman"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Menu Pusat Bantuan -->
+    <LinearLayout
+        android:id="@+id/pusat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/undang"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_light"
+            android:contentDescription="Pusat Bantuan Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pusat Bantuan"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Menu Chat dengan SeaBank -->
+    <LinearLayout
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pusat"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_chat"
+            android:contentDescription="Chat Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat dengan SeaBank"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Menu Beri Masukan -->
+    <LinearLayout
+        android:id="@+id/masukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_masukan"
+            android:contentDescription="Beri Masukan Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beri Masukan"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow"
+            android:contentDescription="Right Arrow Icon"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/masukan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:width="400dp"
+        android:backgroundTint="@color/white"
+        android:text="Log Out"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>
